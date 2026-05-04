@@ -1,2 +1,2 @@
 # PV080_buggy_code
-Repository for a seminar-lab
+Repository for a seminar.
