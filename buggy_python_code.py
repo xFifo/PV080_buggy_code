@@ -28,7 +28,7 @@ def fetch_website(urllib_version, url):
     exec(f"import urllib{urllib_version} as urllib", globals())
     # Fetch and print the requested URL
 
-    try: 
+    try:
         http = urllib.PoolManager()
         r = http.request('GET', url)
     except:
@@ -64,4 +64,3 @@ if __name__ == '__main__':
     elif choice == "4":
         password = input("Enter master password: ")
         authenticate(password)
-
